@@ -52,12 +52,20 @@
     }
 
     .container{
-        /*border: solid black 1px;*/
-        /*display: flex;*/
-        /*justify-content: space-between;*/
-        /*flex-wrap: wrap;*/
         width: 100%;
         max-width: 1000px;
         padding: 0 10px;
+    }
+    .visible-small{
+        display: none!important;
+        @media screen and (max-width: 498px) {
+            display: flex!important;
+        }
+    }
+    .visible-large{
+        display: flex!important;
+        @media screen and (max-width: 498px) {
+            display: none!important;
+        }
     }
 </style>
