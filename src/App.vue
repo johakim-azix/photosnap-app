@@ -19,12 +19,45 @@
     }
 
     body{
-        background: rgba(0,0,0,.2);
+        background: var(--pure-white);
     }
 
     *{
         margin: 0;
         padding: 0;
         scroll-behavior: smooth;
+    }
+
+    .btn{
+        outline: 0;
+        border: 0;
+        cursor: pointer;
+        transition: all ease-in-out .15s;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .btn-primary{
+        background: var(--pure-black);
+        color: var(--pure-white);
+
+        &:hover{
+            background: rgba(0,0,0,.2);
+            color: var(--pure-black);
+        }
+
+    }
+
+    .container{
+        /*border: solid black 1px;*/
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+        /*flex-wrap: wrap;*/
+        width: 100%;
+        max-width: 1000px;
+        padding: 0 10px;
     }
 </style>
