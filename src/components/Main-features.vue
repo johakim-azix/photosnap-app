@@ -1,5 +1,5 @@
 <template>
-    <div class="features" :class="{min:(minimized)}">
+    <div class="features">
         <div class="container">
             <div class="content">
                 <div class="feature">
@@ -23,21 +23,21 @@
                         <p>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. </p>
                     </div>
                 </div>
-                <div class="feature hide">
+                <div class="feature" v-if="!minimized">
                     <img src="../assets/icons/icon-www.svg" alt="">
                     <div class="caption">
                         <h5>Custom Domain</h5>
                         <p>With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!</p>
                     </div>
                 </div>
-                <div class="feature hide">
+                <div class="feature" v-if="!minimized">
                     <img src="../assets/icons/icon-slider.svg" alt="">
                     <div class="caption">
                         <h5>Boost Your Exposure</h5>
                         <p>Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list.</p>
                     </div>
                 </div>
-                <div class="feature hide">
+                <div class="feature" v-if="!minimized">
                     <img src="../assets/icons/icon-drag.svg" alt="">
                     <div class="caption">
                         <h5>Drag & Drop Image</h5>
@@ -84,6 +84,7 @@
                 max-width: 250px;
                 width: 33.33%;
                 margin: 25px 20px;
+                transition: all ease-in-out .15s;
                 @media screen and (max-width: 901px){
                     width: 28%;
                 }

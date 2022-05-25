@@ -1,11 +1,19 @@
 <script>
+    import mainHeader from "@/components/Main-header"
+    import mainFooter from "@/components/Main-footer"
     export default {
-        name: 'App'
+        name: 'App',
+        components:{
+            mainHeader,
+            mainFooter
+        }
     }
 </script>
 
 <template>
+    <main-header/>
     <router-view/>
+    <main-footer/>
 </template>
 
 <style lang="scss">
@@ -20,6 +28,7 @@
 
     body{
         background: var(--pure-white);
+        padding-top: 58px;
     }
 
     *{

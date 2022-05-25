@@ -13,10 +13,10 @@
                     <div class="inst"></div>
                 </div>
                 <div class="nav">
-                    <a class="nav__link">HOME</a>
-                    <a class="nav__link">STORIES</a>
-                    <a class="nav__link">FEATURES</a>
-                    <a class="nav__link">PRICING</a>
+                    <router-link :to="{name:'homePage'}" class="nav__link">HOME</router-link>
+                    <router-link :to="{name:'stories'}" class="nav__link">STORIES</router-link>
+                    <router-link :to="{name:'features'}" class="nav__link">FEATURES</router-link>
+                    <router-link :to="{name:'pricing'}" class="nav__link">PRICING</router-link>
                 </div>
                 <div class="social-media visible-large">
                     <div class="fb"></div>
@@ -91,6 +91,8 @@
                     cursor: pointer;
                     text-align: center;
                     margin-bottom: 10px;
+                    text-decoration: none;
+                    color: var(--pure-white);
                     &:hover{
                         color: rgba(255,255,255,.4);
                     }

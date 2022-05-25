@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/world-tour.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/unforeseen-corners.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/king-on-africa.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/trip-to-nowhere.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/rage-of-the-sea.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -109,7 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/running-free.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/behind-the-waves.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -133,7 +133,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/calm-waters.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -145,7 +145,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/milky-way.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/dark-forest.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -169,7 +169,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/somwarpet.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -181,7 +181,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" v-if="!minimized">
                 <img src="../assets/images/desktop/land-of-dreams.jpg" alt="">
                 <div class="cover">
                     <div class="caption">
@@ -199,13 +199,13 @@
 
 <script>
     export default {
-        name: "image-grid"
+        name: "image-grid",
+        props:["minimized"]
     }
 </script>
 
 <style lang="scss" scoped>
     .img-grid{
-        /*border: solid red 1px;*/
         height: fit-content;
         display: flex;
         justify-content: space-around;
@@ -214,14 +214,22 @@
             flex-flow: wrap;
             padding: 0!important;
             width: fit-content;
-            /*border: solid blue 1px;*/
-            max-width: 1200px;
+            background: rgba(0,0,0,.07);
         }
         .item{
             width: 25%;
             height: fit-content;
             position: relative;
             transition: all ease-in-out .30s;
+            @media screen and (max-width: 768px){
+                width: 33.33%;
+            }
+            @media screen and (max-width: 500px){
+                width: 50%;
+            }
+            @media screen and (max-width: 400px){
+                width: 100%;
+            }
             &:after{
                 content: "";
                 display: block;
@@ -291,8 +299,6 @@
                     }
                 }
             }
-            /*width: 360px;*/
-            /*height: 500px;*/
         }
     }
 </style>

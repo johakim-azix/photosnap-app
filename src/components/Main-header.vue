@@ -2,13 +2,13 @@
     <div class="header">
         <div class="container">
             <div class="content">
-                <a class="logo">
+                <router-link :to="{name:'homePage'}" class="logo">
                     <img src="../assets/logos/logo-header.svg" alt="header logo">
-                </a>
+                </router-link>
                 <div class="nav">
-                    <a class="nav__link" href="">STORIES</a>
-                    <a class="nav__link" href="">FEATURES</a>
-                    <a class="nav__link" href="">PRICING</a>
+                    <router-link :to="{name:'stories'}" class="nav__link" href="">STORIES</router-link>
+                    <router-link :to="{name:'features'}" class="nav__link" href="">FEATURES</router-link>
+                    <router-link :to="{name:'pricing'}" class="nav__link" href="">PRICING</router-link>
                 </div>
                 <a class="btn btn-primary" href="">GET AN INVITE</a>
                 <div class="btn-menu" @click="toggleDropMenu">
@@ -18,9 +18,9 @@
                 </div>
                 <div class="drop-menu " >
                     <hr>
-                    <a class="nav__link" href="">STORIES</a>
-                    <a class="nav__link" href="">FEATURES</a>
-                    <a class="nav__link" href="">PRICING</a>
+                    <router-link :to="{name:'stories'}" class="nav__link" href="">STORIES</router-link>
+                    <router-link :to="{name:'features'}" class="nav__link" href="">FEATURES</router-link>
+                    <router-link :to="{name:'pricing'}" class="nav__link" href="">PRICING</router-link>
                     <hr>
                     <a class="btn btn-primary" href="">GET AN INVITE</a>
                 </div>
@@ -76,6 +76,10 @@
     }
 
     .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
         display: flex;
         border-bottom: solid rgba(0,0,0,.2) 1px;
         margin-top: -200%;
