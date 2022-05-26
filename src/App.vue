@@ -62,7 +62,7 @@
 
     .container{
         width: 100%;
-        max-width: 1000px;
+        max-width: 1110px;
         padding: 0 10px;
     }
     .visible-small{
@@ -75,6 +75,14 @@
         display: flex!important;
         @media screen and (max-width: 498px) {
             display: none!important;
+        }
+    }
+    @keyframes load {
+        from{
+            background: rgba(0,0,0,.1);
+        }
+        to{
+            background: rgba(0,0,0,.3);
         }
     }
 </style>

@@ -1,13 +1,13 @@
 <template>
-    <img-grid :minimized="false"/>
+    <stories-grid/>
 </template>
 
 <script>
-    import imgGrid from "@/components/image-grid"
+    import storiesGrid from "@/components/stories/stories-grid"
     export default {
         name: "StoriesPage",
         components:{
-            imgGrid
+            storiesGrid
         }
     }
 </script>

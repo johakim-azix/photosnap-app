@@ -87,6 +87,7 @@
         justify-content: space-around;
         background: var(--pure-white);
         animation: ease-in-out 1s header_in forwards 1s, ease-in-out 1s border-fade-out forwards 1.5s;
+
     }
 
     .content {

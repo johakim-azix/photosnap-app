@@ -1,13 +1,13 @@
 <template>
-    <main-feature :minimized="false"/>
+    <features-grid/>
 </template>
 
 <script>
-    import mainFeature from "@/components/Main-features"
+    import featuresGrid from "@/components/features/features-grid"
     export default {
         name: "FeaturePage",
         components:{
-            mainFeature
+            featuresGrid
         }
     }
 </script>
