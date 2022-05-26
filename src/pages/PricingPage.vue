@@ -1,10 +1,14 @@
 <template>
-    <div style="background: rgba(0,0,0,.1); height: 300px; width: 100%"></div>
+    <hero-banner/>
 </template>
 
 <script>
+    import heroBanner from  "@/components/pricing/hero-banner"
     export default {
-        name: "PricingPage"
+        name: "PricingPage",
+        components:{
+            heroBanner
+        }
     }
 </script>
 

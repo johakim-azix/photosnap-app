@@ -7,9 +7,8 @@
                         <div class="bar"></div>
                         <div>
                             <div>
-                                <h1>CREATE AND SHARE YOUR PHOTO STORIES.</h1>
-                                <p>Photosnap is a platform for photographers and visual storytellers. We make it easy to
-                                    share photos, tell stories and connect with others.</p>
+                                <h1>FEATURES</h1>
+                                <p>We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.</p>
                                 <a href="">GET AN INVITE <img src="../../assets/icons/icon-arrow-right-white.svg"
                                                               alt=""></a>
                             </div>
@@ -141,12 +140,12 @@
             .image {
                 max-width: 830px;
                 width: 100%;
-                height: 650px;
-                background: rgba(0, 0, 0, .4) url("../../assets/images/desktop/create-and-share.jpg") center;
+                height: 490px;
+                background: rgba(0, 0, 0, .4) url("../../assets/images/desktop/hero-feature.jpg") center no-repeat;
                 background-blend-mode: overlay;
                 transition: all ease-in-out .15s;
                 @media screen and (max-width: 500px) {
-                    height: 500px;
+                    height: 490px;
                 }
                 @media screen and (max-width: 400px) {
                     height: 400px;

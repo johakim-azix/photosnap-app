@@ -1,34 +1,36 @@
 <template>
     <div class="footer">
         <div class="container">
-            <div class="side-left">
-                <div class="logo">
-                    <img src="../assets/logos/logo-footer.svg" alt="">
+            <div class="content">
+                <div class="side-left">
+                    <div class="logo">
+                        <img src="../assets/logos/logo-footer.svg" alt="">
+                    </div>
+                    <div class="social-media visible-small">
+                        <div class="fb"></div>
+                        <div class="yt"></div>
+                        <div class="tt"></div>
+                        <div class="pint"></div>
+                        <div class="inst"></div>
+                    </div>
+                    <div class="nav">
+                        <router-link :to="{name:'homePage'}" class="nav__link">HOME</router-link>
+                        <router-link :to="{name:'stories'}" class="nav__link">STORIES</router-link>
+                        <router-link :to="{name:'features'}" class="nav__link">FEATURES</router-link>
+                        <router-link :to="{name:'pricing'}" class="nav__link">PRICING</router-link>
+                    </div>
+                    <div class="social-media visible-large">
+                        <div class="fb"></div>
+                        <div class="yt"></div>
+                        <div class="tt"></div>
+                        <div class="pint"></div>
+                        <div class="inst"></div>
+                    </div>
                 </div>
-                <div class="social-media visible-small">
-                    <div class="fb"></div>
-                    <div class="yt"></div>
-                    <div class="tt"></div>
-                    <div class="pint"></div>
-                    <div class="inst"></div>
+                <div class="side-right">
+                    <a href="">GET AN INVITE <img src="../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                    <span>Copyright 2019. All Rights Reserved</span>
                 </div>
-                <div class="nav">
-                    <router-link :to="{name:'homePage'}" class="nav__link">HOME</router-link>
-                    <router-link :to="{name:'stories'}" class="nav__link">STORIES</router-link>
-                    <router-link :to="{name:'features'}" class="nav__link">FEATURES</router-link>
-                    <router-link :to="{name:'pricing'}" class="nav__link">PRICING</router-link>
-                </div>
-                <div class="social-media visible-large">
-                    <div class="fb"></div>
-                    <div class="yt"></div>
-                    <div class="tt"></div>
-                    <div class="pint"></div>
-                    <div class="inst"></div>
-                </div>
-            </div>
-            <div class="side-right">
-                <a href="">GET AN INVITE <img src="../assets/icons/icon-arrow-right-white.svg" alt=""></a>
-                <span>Copyright 2019. All Rights Reserved</span>
             </div>
         </div>
     </div>
@@ -42,22 +44,30 @@
 
 <style lang="scss" scoped>
     .footer{
-        background: var(--pure-black);
         color: var(--pure-white);
         display: flex;
         justify-content: space-around;
         font-weight: bold;
         font-size: 12px;
-        padding: 40px 0;
         .container{
             display: flex;
-            justify-content: space-between;
-            max-width: 1200px;
-            &>div{
-                width: fit-content;
-            }
-            @media screen and (max-width: 498px) {
-                flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1440px;
+            background: var(--pure-black);
+            padding: 70px 0;
+
+            .content{
+                display: flex;
+                justify-content: space-between;
+                max-width: 1104px;
+                width: 100%;
+                padding: 0 40px;
+                &>div{
+                    width: fit-content;
+                }
+                @media screen and (max-width: 498px) {
+                    flex-wrap: wrap;
+                }
             }
         }
 

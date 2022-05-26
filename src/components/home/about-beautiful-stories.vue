@@ -45,6 +45,12 @@
                 height: 600px;
                 background: rgba(0, 0, 0, .4) url("../../assets/images/desktop/beautiful-stories.jpg") center;
                 background-blend-mode: overlay;
+                @media screen and (max-width: 500px) {
+                    height: 500px;
+                }
+                @media screen and (max-width: 400px) {
+                    height: 400px;
+                }
             }
             .text {
                 background: var(--pure-white);
@@ -67,6 +73,12 @@
                 h1 {
                     font-size: 40px;
                     font-weight: bold;
+                    @media screen and (max-width: 650px) {
+                        font-size: 32px;
+                    }
+                    @media screen and (max-width: 400px) {
+                        font-size: 24px;
+                    }
                 }
                 p {
                     margin: 20px 0;

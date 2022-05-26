@@ -35,6 +35,7 @@
         margin: 0;
         padding: 0;
         scroll-behavior: smooth;
+        transition: all ease-in-out .15s;
     }
 
     .btn{
