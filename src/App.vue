@@ -28,7 +28,10 @@
 
     body{
         background: var(--pure-white);
-        padding-top: 58px;
+        padding-top: 54px;
+        &::-webkit-scrollbar{
+            width: 0;
+        }
     }
 
     *{

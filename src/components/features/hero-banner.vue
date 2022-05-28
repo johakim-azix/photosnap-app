@@ -4,11 +4,14 @@
             <div class="content">
                 <div class="text">
                     <div>
-                        <div class="bar"></div>
+                        <div class="bar visible-lg"></div>
                         <div>
                             <div>
+                                <div class="bar visible-xs"></div>
+
                                 <h1>FEATURES</h1>
-                                <p>We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.</p>
+                                <p>We make sure all of our features are designed to be loved by every aspiring and even
+                                    professional photograpers who wanted to share their stories.</p>
                                 <a href="">GET AN INVITE <img src="../../assets/icons/icon-arrow-right-white.svg"
                                                               alt=""></a>
                             </div>
@@ -84,6 +87,19 @@
                             position: absolute;
                             top: 0;
                         }
+
+                        &.visible-lg{
+                            display: block;
+                            @media screen and (max-width: 650px){
+                                display: none;
+                            }
+                        }
+                        &.visible-xs{
+                            display: none;
+                            @media screen and (max-width: 650px){
+                                display: block;
+                            }
+                        }
                     }
 
                     & > div:last-child {
@@ -92,10 +108,17 @@
                         justify-content: space-around;
                         align-items: center;
                         width: 100%;
+                        @media screen and (max-width: 650px) {
+                            padding: 0 20px;
+                        }
 
                         & > div {
                             max-width: 407px;
-                            padding: 60px 0;
+                            @media screen and (max-width: 650px) {
+                                height: 100%;
+                                position: relative;
+                                padding: 60px 0;
+                            }
                         }
                     }
 

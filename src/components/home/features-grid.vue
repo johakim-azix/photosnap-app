@@ -41,23 +41,35 @@
     .features {
         display: flex;
         justify-content: space-around;
-
+        padding: 0;
+        margin: 50px 0;
         .container {
             display: flex;
             justify-content: space-around;
-            padding: 50px 0;
+            padding: 50px 20px!important;
+            max-width: 1110px;
+            @media screen and (max-width: 546px) {
+                padding: 30px 0!important;
+            }
         }
 
         .content {
             display: flex;
             flex-flow: wrap;
-            max-width: 880px;
-            width: 100%;
-            @media screen and (max-width: 813px) {
-                max-width: 730px;
+            max-width: 970px;
+            width: fit-content;
+            @media screen and (max-width: 1006px) {
+                max-width: 900px;
             }
+            @media screen and (max-width: 903px) {
+                max-width: 800px;
+            }
+            @media screen and (max-width: 752px) {
+                max-width: 650px;
+            }
+
             @media screen and (max-width: 689px) {
-                max-width: 490px;
+                max-width: 640px;
             }
             @media screen and (max-width: 510px) {
                 max-width: 100%;
@@ -65,36 +77,40 @@
 
             .feature {
                 height: fit-content;
-                max-width: 250px;
+                max-width: 300px;
                 width: 33.33%;
-                margin: 25px 20px;
+                margin: 25px 10px;
                 transition: all ease-in-out .15s;
-                @media screen and (max-width: 901px) {
-                    width: 28%;
+                @media screen and (max-width: 1006px) {
+                    width: 31%;
                 }
-                @media screen and (max-width: 813px) {
-                    width: 27%;
+                @media screen and (max-width: 903px) {
+                    width: 30.5%;
                 }
+                @media screen and (max-width: 752px) {
+                    width: 29.8%;
+                }
+
                 @media screen and (max-width: 689px) {
-                    max-width: 200px;
-                    width: 50%;
+                    max-width: 300px;
+                    width: 46%;
                 }
 
                 @media screen and (max-width: 510px) {
-                    max-width: 100%;
+                    max-width: 70%;
                     width: 100%;
+                    margin-right: auto;
+                    margin-left: auto;
                 }
-
-                &.second {
-                    img {
-                        margin-top: 30px !important;
-                        margin-bottom: 36px !important;
-                    }
+                @media screen and (max-width: 400px) {
+                    max-width: 90%;
                 }
 
                 img {
                     display: block;
                     margin: 10px auto 20px auto !important;
+                    height: 72px;
+                    width: 72px;
                 }
 
                 h5 {
@@ -113,17 +129,6 @@
                 }
             }
         }
-
-        &.min {
-            .feature {
-                /*border: solid 1px black;*/
-                &.hide {
-                    display: none !important;
-                    border: solid red 1px;
-                }
-            }
-        }
     }
-
 
 </style>

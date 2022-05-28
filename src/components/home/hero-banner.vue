@@ -4,9 +4,10 @@
             <div class="content">
                 <div class="text">
                     <div>
-                        <div class="bar"></div>
+                        <div class="bar visible-lg"></div>
                         <div>
                             <div>
+                                <div class="bar visible-xs"></div>
                                 <h1>CREATE AND SHARE YOUR PHOTO STORIES.</h1>
                                 <p>Photosnap is a platform for photographers and visual storytellers. We make it easy to
                                     share photos, tell stories and connect with others.</p>
@@ -85,6 +86,18 @@
                             position: absolute;
                             top: 0;
                         }
+                        &.visible-lg{
+                            display: block;
+                            @media screen and (max-width: 650px){
+                                display: none;
+                            }
+                        }
+                        &.visible-xs{
+                            display: none;
+                            @media screen and (max-width: 650px){
+                                display: block;
+                            }
+                        }
                     }
 
                     & > div:last-child {
@@ -93,10 +106,17 @@
                         justify-content: space-around;
                         align-items: center;
                         width: 100%;
+                        @media screen and (max-width: 650px) {
+                            padding: 0 20px;
+                        }
 
                         & > div {
                             max-width: 407px;
-                            padding: 60px 0;
+                            @media screen and (max-width: 650px) {
+                                height: 100%;
+                                position: relative;
+                                padding: 60px 0;
+                            }
                         }
                     }
 

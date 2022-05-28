@@ -3,6 +3,7 @@
         <div class="container">
             <div class="content">
                 <div class="text">
+                    <div class="bar"></div>
                     <h1>We’re in beta. <br> Get your invite today!</h1>
                     <a href="">GET AN INVITE <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                 </div>
@@ -35,19 +36,30 @@
             background-blend-mode: overlay;
             position: relative;
             justify-content: space-around;
-            padding: 0 40px;
             max-height: 280px;
 
             .text {
                 width: 100%;
                 max-width: 1104px;
-                padding: 60px 0;
+                padding: 60px 40px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                position: relative;
                 max-height: 280px;
 
+                .bar {
+                    width: 6px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    background: white url("../../assets/images/banner-bar-large.svg");
+                    @media screen and (max-width: 539px) {
+                        height: 6px;
+                        width: 128px;
+                        left: 40px;
+                    }
+                }
                 @media screen and (max-width: 650px) {
                     max-width: 100% !important;
                     flex-wrap: wrap;
