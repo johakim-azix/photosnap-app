@@ -33,7 +33,7 @@
     .hero {
         display: flex;
         justify-content: space-around;
-        color: var(--pure-white);
+        color: var(--color-secondary);
 
         .container {
             padding: 0 !important;
@@ -105,11 +105,11 @@
                         font-weight: normal;
                         font-size: 15px;
                         margin-bottom: 40px;
-                        color: rgba(255, 255, 255, .7);
+                        color: var(--color-body-secondary);
                     }
 
                     a {
-                        color: var(--pure-white);
+                        color: var(--color-secondary);
                         font-size: 12px;
                         text-decoration: none;
                         padding: 10px;

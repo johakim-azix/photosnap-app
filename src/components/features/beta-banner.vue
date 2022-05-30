@@ -22,7 +22,7 @@
     .hero {
         display: flex;
         justify-content: space-around;
-        color: var(--pure-white);
+        color: var(--color-secondary);
 
         .container {
             padding: 0 !important;
@@ -53,11 +53,12 @@
                     top: 0;
                     left: 0;
                     bottom: 0;
-                    background: white url("../../assets/images/banner-bar-large.svg");
+                    background: linear-gradient(rgb(90, 119, 255), rgb(188, 113, 152), rgb(255, 197, 147));
                     @media screen and (max-width: 539px) {
                         height: 6px;
                         width: 128px;
                         left: 40px;
+                        background: linear-gradient(270deg,rgb(90, 119, 255), rgb(188, 113, 152), rgb(255, 197, 147));
                     }
                 }
                 @media screen and (max-width: 650px) {
@@ -78,7 +79,7 @@
                 }
 
                 a {
-                    color: var(--pure-white);
+                    color: var(--color-secondary);
                     font-size: 12px;
                     text-decoration: none;
                     padding: 10px;
@@ -94,5 +95,4 @@
             }
         }
     }
-
 </style>

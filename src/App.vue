@@ -1,9 +1,10 @@
 <script>
     import mainHeader from "@/components/Main-header"
     import mainFooter from "@/components/Main-footer"
+
     export default {
         name: 'App',
-        components:{
+        components: {
             mainHeader,
             mainFooter
         }
@@ -17,34 +18,37 @@
 </template>
 
 <style lang="scss">
-    :root{
-        --pure-black: hsl(0, 0%, 0%);
-        --light-grey: hsl(0, 0%, 87%);
-        --pure-white: hsl(0, 0%, 100%);
-        --main-accent: rgba(255, 197, 147) 28°, 100%, 79%;
-        --main-accent-2: rgba(18, 113, 152) 329°, 36%, 59%;
-        --main-accent-3: rgba(90, 119, 255) 229°, 100%, 67%;
+    :root {
+        --color-primary: hsl(0, 0%, 0%);
+        --heading-primary: hsl(0, 0%, 0%);
+        --color-secondary: hsl(0, 0%, 100%);
+        --heading-secondary: hsl(0, 0%, 100%);
+        --color-body-primary: rgba(0, 0, 0, .5);
+        --color-body-secondary: rgba(255, 255, 255, .7);
     }
 
-    body{
+    body {
         background: var(--pure-white);
         padding-top: 54px;
-        &::-webkit-scrollbar{
+        color: var(--color-body-primary);
+
+        &::-webkit-scrollbar {
             width: 0;
         }
-        @media screen and (max-width: 590px){
+
+        @media screen and (max-width: 590px) {
             padding-top: 49px;
         }
     }
 
-    *{
+    * {
         margin: 0;
         padding: 0;
         scroll-behavior: smooth;
         transition: all ease-in-out .15s;
     }
 
-    .btn{
+    .btn {
         outline: 0;
         border: 0;
         cursor: pointer;
@@ -56,40 +60,42 @@
         height: fit-content;
     }
 
-    .btn-primary{
-        background: var(--pure-black);
-        color: var(--pure-white);
+    .btn-primary {
+        background: var(--color-primary);
+        color: var(--color-secondary);
 
-        &:hover{
-            background: rgba(0,0,0,.2);
-            color: var(--pure-black);
+        &:hover {
+            background: rgba(0, 0, 0, .2);
+            color: var(--color-primary);
         }
-
     }
 
-    .container{
+    .container {
         width: 100%;
         max-width: 1110px;
         padding: 0 10px;
     }
-    .visible-small{
-        display: none!important;
+
+    .visible-small {
+        display: none !important;
         @media screen and (max-width: 498px) {
-            display: flex!important;
+            display: flex !important;
         }
     }
-    .visible-large{
-        display: flex!important;
+
+    .visible-large {
+        display: flex !important;
         @media screen and (max-width: 498px) {
-            display: none!important;
+            display: none !important;
         }
     }
+
     @keyframes load {
-        from{
-            background: rgba(0,0,0,.1);
+        from {
+            background: rgba(0, 0, 0, .1);
         }
-        to{
-            background: rgba(0,0,0,.3);
+        to {
+            background: rgba(0, 0, 0, .3);
         }
     }
 </style>

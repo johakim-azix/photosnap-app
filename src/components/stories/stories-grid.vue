@@ -273,7 +273,7 @@
                 bottom: 20px;
                 left: 20px;
                 right: 20px;
-                color: var(--pure-white);
+                color: var(--color-secondary);
                 padding: 10px 0;
                 &>*{
                     display: block;
@@ -287,7 +287,8 @@
                 }
                 hr{
                     margin: 10px 0;
-                    background: rgba(255,255,255,.5);
+                    background: var(--color-secondary);
+                    opacity: .5;
                     border: 0;
                     height: 1px;
                 }

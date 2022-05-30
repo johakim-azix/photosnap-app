@@ -32,7 +32,7 @@
     .hero {
         display: flex;
         justify-content: space-around;
-        color: var(--pure-white);
+        color: var(--color-secondary);
 
         .container {
             padding: 0 !important;
@@ -57,7 +57,7 @@
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
-                background: var(--pure-black);
+                background: var(--color-primary);
                 @media screen and (max-width: 650px) {
                     max-width: 100% !important;
                     padding: 0;
@@ -78,12 +78,14 @@
                     .bar {
                         height: 304px !important;
                         width: 6px;
-                        background: white url("../../assets/images/banner-bar-large.svg");
+                        background: linear-gradient(rgb(90, 119, 255), rgb(188, 113, 152), rgb(255, 197, 147));
+
                         @media screen and (max-width: 650px) {
                             height: 6px !important;
                             width: 128px;
                             position: absolute;
                             top: 0;
+                            background: linear-gradient(270deg,rgb(90, 119, 255), rgb(188, 113, 152), rgb(255, 197, 147));
                         }
                         &.visible-lg{
                             display: block;
@@ -123,6 +125,7 @@
                         font-size: 40px;
                         font-weight: bold;
                         margin-bottom: 20px;
+                        color: var(--color-secondary);
                         @media screen and (max-width: 650px) {
                             font-size: 32px;
                         }
@@ -135,11 +138,11 @@
                         font-weight: normal;
                         font-size: 15px;
                         margin-bottom: 40px;
-                        color: rgba(255, 255, 255, .7);
+                        color: var(--color-body-secondary);
                     }
 
                     a {
-                        color: var(--pure-white);
+                        color: var(--color-secondary);
                         font-size: 12px;
                         text-decoration: none;
                         padding: 10px;

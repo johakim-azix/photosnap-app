@@ -117,6 +117,7 @@
                     text-align: center;
                     margin-bottom: 15px;
                     font-size: 18px;
+                    color: var(--color-primary);
                 }
 
                 p {
@@ -125,7 +126,6 @@
                     font-size: 15px;
                     text-align: center;
                     margin-bottom: 0 !important;
-                    color: rgba(0, 0, 0, .5);
                 }
             }
         }

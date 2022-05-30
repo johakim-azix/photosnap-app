@@ -31,10 +31,6 @@
 </script>
 
 <style lang="scss" scoped>
-
-
-
-
     .about-us {
         display: flex;
         width: 100%;
@@ -70,12 +66,11 @@
             }
 
             .text {
-                background: var(--pure-white);
+                background: var(--color-secondary);
                 max-width: 510px;
                 width: 100%;
                 overflow: hidden;
                 padding: 60px 50px;
-                /*display: flex;*/
                 justify-content: space-around;
                 align-items: center;
                 @media screen and (max-width: 650px) {
@@ -106,6 +101,7 @@
                 h1 {
                     font-size: 40px;
                     font-weight: bold;
+                    color: var(--color-primary);
                     @media screen and (max-width: 650px) {
                         font-size: 32px;
                     }
@@ -117,12 +113,10 @@
                 p {
                     margin: 20px 0;
                     font-size: 15px;
-                    color: rgba(0, 0, 0, .7);
-
                 }
 
                 a {
-                    color: var(--pure-black);
+                    color: var(--color-primary);
                     text-decoration: none;
                     padding: 10px;
                     display: flex;

@@ -43,35 +43,38 @@
 </script>
 
 <style lang="scss" scoped>
-    .footer{
+    .footer {
         color: var(--pure-white);
         display: flex;
         justify-content: space-around;
         font-weight: bold;
         font-size: 12px;
-        .container{
+
+        .container {
             display: flex;
             justify-content: space-around;
             max-width: 1440px;
-            background: var(--pure-black);
+            background: var(--color-primary);
             padding: 70px 0;
 
-            .content{
+            .content {
                 display: flex;
                 justify-content: space-between;
                 max-width: 1104px;
                 width: 100%;
                 padding: 0 40px;
-                &>div{
+
+                & > div {
                     width: fit-content;
                 }
+
                 @media screen and (max-width: 498px) {
                     flex-wrap: wrap;
                 }
             }
         }
 
-        .side-left{
+        .side-left {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
@@ -81,10 +84,12 @@
                 width: 100% !important;
                 max-width: 100% !important;
             }
-            &>*{
+
+            & > * {
                 width: fit-content;
             }
-            .logo{
+
+            .logo {
                 height: fit-content;
                 margin-top: 6px;
                 @media screen and (max-width: 498px) {
@@ -92,10 +97,12 @@
                     margin-right: auto;
                 }
             }
-            .nav{
+
+            .nav {
                 overflow: hidden;
                 min-width: 100px;
-                &__link{
+
+                &__link {
                     display: block;
                     width: 100%;
                     padding: 5px 10px;
@@ -103,11 +110,13 @@
                     text-align: center;
                     margin-bottom: 10px;
                     text-decoration: none;
-                    color: var(--pure-white);
-                    &:hover{
-                        color: rgba(255,255,255,.4);
+                    color: var(--color-secondary);
+
+                    &:hover {
+                        color: rgba(255, 255, 255, .4);
                     }
                 }
+
                 @media screen and (max-width: 590px) {
                     display: flex;
                     margin-top: 20px;
@@ -119,7 +128,8 @@
                     margin-top: 50px;
                 }
             }
-            .social-media{
+
+            .social-media {
                 display: flex;
                 width: 50%;
                 height: fit-content;
@@ -129,54 +139,66 @@
                     margin: 20px auto;
                     padding-left: 10px;
                 }
-                &:last-child{
+
+                &:last-child {
                     margin-top: -35px;
                     @media screen and (max-width: 590px) {
                         margin-top: 20px;
                         width: fit-content;
                     }
                 }
-                &>div{
+
+                & > div {
                     width: 20px;
                     height: 20px;
                     margin-right: 10px;
                     transition: all ease-in-out .15s;
                 }
-                .fb{
+
+                .fb {
                     background-image: url("../assets/icons/icon-facebook.svg");
-                    &:hover{
+
+                    &:hover {
                         background-image: url("../assets/icons/icon-facebook-active.svg");
                     }
                 }
-                .yt{
+
+                .yt {
                     background-image: url("../assets/icons/icon-youtube.svg");
-                    &:hover{
+
+                    &:hover {
                         background-image: url("../assets/icons/icon-youtube-active.svg");
                     }
                 }
-                .tt{
+
+                .tt {
                     background-image: url("../assets/icons/icon-tweeter.svg");
                     background-repeat: no-repeat;
-                    &:hover{
+
+                    &:hover {
                         background-image: url("../assets/icons/icon-tweeter-active.svg");
                     }
                 }
-                .pint{
+
+                .pint {
                     background-image: url("../assets/icons/icon-pinterest.svg");
-                    &:hover{
+
+                    &:hover {
                         background-image: url("../assets/icons/icon-pinterest-active.svg");
                     }
                 }
-                .inst{
+
+                .inst {
                     background-image: url("../assets/icons/icon-instagram.svg");
-                    &:hover{
+
+                    &:hover {
                         background-image: url("../assets/icons/icon-instagram-active.svg");
                     }
                 }
             }
         }
 
-        .side-right{
+        .side-right {
             display: flex;
             flex-wrap: wrap;
             padding-bottom: 0;
@@ -185,34 +207,36 @@
                 justify-content: space-around;
                 display: block;
                 margin-top: 50px;
-                &>*{
-                    width: fit-content!important;
+                & > * {
+                    width: fit-content !important;
                     margin: 20px auto;
                 }
             }
-                &>*{
+
+            & > * {
                 display: block;
                 width: 100%;
                 height: fit-content;
                 text-align: right;
             }
-            a{
-                color: var(--pure-white);
+
+            a {
+                color: var(--color-secondary);
                 text-decoration: none;
                 padding: 5px 10px;
                 cursor: pointer;
-                img{
+                img {
                     margin-left: 10px;
-                    margin-bottom: -3px!important;
+                    margin-bottom: -3px !important;
                 }
-                &:hover{
+                &:hover {
                     text-decoration: underline;
                 }
             }
 
-            span{
-                align-self: flex-end!important;
-                color: rgba(255,255,255,.4);
+            span {
+                align-self: flex-end !important;
+                color: rgba(255, 255, 255, .4);
                 margin-bottom: 15px;
             }
         }
