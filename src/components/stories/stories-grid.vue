@@ -248,6 +248,7 @@
             }
             &:hover{
                 transform: translateY(-6px);
+                z-index: 1;
                 &:after{
                     opacity: 1;
                 }

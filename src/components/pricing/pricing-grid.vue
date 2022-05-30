@@ -12,13 +12,13 @@
                         <div>
                             <strong class="title">Basic</strong>
                             <p class="description">Includes basic usage of our platform. <br> Recommended for new and aspiring photographers.</p>
-                            <div class="price visible-lg">
+                            <div class="price visible-lg visible-xs">
                                 <strong>$19.00</strong>
                                 <small>per month</small>
                             </div>
                             <button class="btn btn-primary">PICK PLAN</button>
                         </div>
-                        <div class="price visible-xs">
+                        <div class="price visible-sm">
                             <strong>$19.00</strong>
                             <small>per month</small>
                         </div>
@@ -27,13 +27,13 @@
                         <div>
                             <strong class="title">Pro</strong>
                             <p class="description">More advanced features available. <br> Recommended for photography veterans and professionals.</p>
-                            <div class="price visible-lg">
+                            <div class="price visible-lg visible-xs">
                                 <strong>$39.00</strong>
                                 <small>per month</small>
                             </div>
                             <button class="btn btn-secondary">PICK PLAN</button>
                         </div>
-                        <div class="price visible-xs">
+                        <div class="price visible-sm">
                             <strong>$39.00</strong>
                             <small>per month</small>
                         </div>
@@ -42,13 +42,13 @@
                         <div>
                             <strong class="title">Business</strong>
                             <p class="description">Additional features available such as more detailed metrics. <br> Recommended for business owners.</p>
-                            <div class="price visible-lg">
+                            <div class="price visible-lg visible-xs">
                                 <strong>$99.00</strong>
                                 <small>per month</small>
                             </div>
                             <button class="btn btn-primary">PICK PLAN</button>
                         </div>
-                        <div class="price visible-xs">
+                        <div class="price visible-sm">
                             <strong>$99.00</strong>
                             <small>per month</small>
                         </div>
@@ -147,7 +147,9 @@
                     /*border: solid green 1px;*/
                     display: flex;
                     align-items: center;
-
+                    @media screen and (max-width: 770px){
+                        flex-flow: wrap;
+                    }
                     .item{
                         max-width: 350px;
                         width:100%;
@@ -157,8 +159,20 @@
                         font-size: 15px;
                         display: flex;
                         background: rgba(223, 223, 223,.3);
+                        @media screen and (max-width: 770px){
+                            max-width: 100%;
+                            height: fit-content;
+                            justify-content: space-between;
+                        }
+                        @media screen and (max-width: 500px){
+                            max-width: 100%;
+                            height: fit-content;
+                            justify-content: space-around;
+                            padding: 40px 20px;
+                        }
                         &>div:first-child{
                             align-self: center;
+
                             .title{
                                 display: block;
                                 text-align: center;
@@ -195,15 +209,22 @@
                                 text-align: center;
                                 line-height: 20px;
                             }
-                            &.visible-lg{
-                                display: block;
-                                @media screen and (max-width: 600px){
+                            &.visible-lg.visible-xs{
+                                @media screen and (min-width: 771px){
+                                    display: block;
+                                }
+                                @media screen and (max-width: 770px) and (min-width: 401px){
                                     display: none;
                                 }
                             }
-                            &.visible-xs{
+                            &.visible-sm{
                                 display: none;
-                                @media screen and (max-width: 600px){
+                                @media screen and (max-width: 770px) and (min-width: 401px){
+                                    display: block;
+                                }
+                            }
+                            &.visible-lg.visible-xs{
+                                @media screen and (max-width: 400px) and (min-width: 0px){
                                     display: block;
                                 }
                             }
@@ -226,13 +247,19 @@
                             &:before{
                                 content: "";
                                 position: absolute;
-                                /*width: calc(100% - 80px);*/
                                 height: 6px;
                                 top: 0;
                                 left: 0;
                                 right: 0;
                                 background-image: url("../../assets/images/banner-bar-small.svg");
                                 /*todo : goes the style for the bar*/
+                            }
+                            @media screen and (max-width: 900px){
+                                margin: 0 10px;
+                            }
+                            @media screen and (max-width: 770px){
+                                height: fit-content;
+                                margin: 20px 0;
                             }
                         }
 

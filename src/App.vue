@@ -32,6 +32,9 @@
         &::-webkit-scrollbar{
             width: 0;
         }
+        @media screen and (max-width: 590px){
+            padding-top: 49px;
+        }
     }
 
     *{
