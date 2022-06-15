@@ -28,6 +28,7 @@
     }
 
     body {
+        /*todo : add the corresponding font size and review the pricing grid (the bar isn't displayed correctly on xs screens)*/
         background: var(--pure-white);
         padding-top: 54px;
         color: var(--color-body-primary);
