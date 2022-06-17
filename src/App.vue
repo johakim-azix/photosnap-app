@@ -13,8 +13,11 @@
 
 <template>
     <main-header/>
-    <router-view/>
-    <main-footer/>
+    <div class="fade--in">
+        <router-view />
+        <main-footer/>
+    </div>
+
 </template>
 
 <style lang="scss">
@@ -28,7 +31,6 @@
     }
 
     body {
-        /*todo : add the corresponding font size and review the pricing grid (the bar isn't displayed correctly on xs screens)*/
         background: var(--pure-white);
         padding-top: 54px;
         color: var(--color-body-primary);
@@ -47,6 +49,20 @@
         padding: 0;
         scroll-behavior: smooth;
         transition: all ease-in-out .15s;
+    }
+
+    .fade--in{
+        opacity: 0;
+        animation: ease-in-out .5s fade-in forwards 2s;
+    }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 
     .btn {

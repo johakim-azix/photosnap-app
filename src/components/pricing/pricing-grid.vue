@@ -110,8 +110,7 @@
 
                 span {
                     font-weight: bold;
-
-                    &.on {
+                    &:last-child{
                         color: var(--color-primary);
                     }
                 }
@@ -299,6 +298,13 @@
                                     height: auto;
                                     width: 6px;
                                     background: linear-gradient(rgb(90, 119, 255), rgb(188, 113, 152), rgb(255, 197, 147));
+                                }
+                                @media screen and (max-width: 400px) {
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    height: 6px;
+                                    width: auto;
                                 }
                             }
 
