@@ -55,11 +55,11 @@ Users should be able to:
 - Routing 
 
 ### What I learned
-Avec ce challenge ce qui m'a marqué c'est l'erreur que j'ai eu lors du build du projet; en effet apres le build le routing ne fonctionnait plus et j'avais une erreur en console disant "c.then is not a function" a chaque fois que j'essayeis de naviguer vers d'autre routes!!
-C'était la première fois que j'avais ce bug; J'ai pas mal fait des recherches pour resourdre le souci alors que la problème était là juste sous mes yeux!!!!
+With this challenge what struck me was the error I had when building the project; indeed after the build the routing no longer worked and I had an error in console saying "c.then is not a function" every time I tried to navigate to other routes!!
+It was the first time I had this bug; I did a lot of research to solve the problem when the problem was there right before my eyes!!!!
 
-C'est toujours frustrant quand on a un bug et on debug pour le resoudre; mais quand on trouve la solution; plus  ça prends du temps, plus ça fatigue et plus on est venerf... 
-Et quand on découvre que la solution etait sous nos yeux tout ce temps... je sais pas vous mais moi je me marre toujours de ouf!!!
+It's always frustrating when you have a bug and you debug to fix it; but when we find the solution; the more time it takes, the more it tires and the more we are angry...
+And when we discover that the solution was in front of our eyes all this time... I don't know about you but I'm still fed up with phew!!!
  
 
 ## Author
