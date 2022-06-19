@@ -21,6 +21,7 @@
 </template>
 
 <style lang="scss">
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@300;400;500;600&display=swap');
     :root {
         --color-primary: hsl(0, 0%, 0%);
         --heading-primary: hsl(0, 0%, 0%);
@@ -28,12 +29,14 @@
         --heading-secondary: hsl(0, 0%, 100%);
         --color-body-primary: rgba(0, 0, 0, .5);
         --color-body-secondary: rgba(255, 255, 255, .7);
+        --font-familly: "DM Sans";
     }
 
     body {
         background: var(--pure-white);
         padding-top: 54px;
         color: var(--color-body-primary);
+        font-family: var(--font-familly);
 
         &::-webkit-scrollbar {
             width: 0;

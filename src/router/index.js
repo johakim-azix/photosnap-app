@@ -9,22 +9,22 @@ const routes = [
     {
         path: "/stories",
         name: "stories",
-        component: ()=> require("../pages/StoriesPage")
+        component: ()=> import("../pages/StoriesPage")
     },
     {
         path: "/features",
         name: "features",
-        component: ()=> require("../pages/FeaturePage")
+        component: ()=> import("../pages/FeaturePage")
     },
     {
         path: "/pricing",
         name: "pricing",
-        component: ()=> require("../pages/PricingPage")
+        component: ()=> import("../pages/PricingPage")
     }
 ]
 
 const router = createRouter({
-    history: createWebHistory('/photosnap-app/'),
+    history: createWebHistory(process.env.BASE_URL),
     routes,
 })
 
