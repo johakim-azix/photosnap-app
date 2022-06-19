@@ -25,8 +25,8 @@ This is a solution to the [Photosanp-app challenge from Frontend Mentor, you can
 
 
 ### Links
-- Live Site URL: [Add live site URL here](https://johakim-azix.github.io/photosnap-app/)
-- Solution URL: [Add solution URL here](https://github.com/johakim-azix/photosnap-app/)
+- Live Site URL: [https://johakim-azix.github.io/photosnap-app/](https://johakim-azix.github.io/photosnap-app/)
+- Solution URL: [https://github.com/johakim-azix/photosnap-app](https://github.com/johakim-azix/photosnap-app/)
 
 ## My process
 * Start by evaluation the design wireframes, determining potential layout, components...
