@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="side-right">
-                    <a href="">GET AN INVITE <img src="../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                    <a>GET AN INVITE <img src="../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     <span>Copyright 2019. All Rights Reserved</span>
                 </div>
             </div>

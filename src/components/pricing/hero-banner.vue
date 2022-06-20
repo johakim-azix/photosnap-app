@@ -10,7 +10,7 @@
                                 <div class="bar visible-xs"></div>
                                 <h1>PRICING</h1>
                                 <p>Create a your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos.</p>
-                                <a href="">GET AN INVITE <img src="../../assets/icons/icon-arrow-right-white.svg"
+                                <a>GET AN INVITE <img src="../../assets/icons/icon-arrow-right-white.svg"
                                                               alt=""></a>
                             </div>
                         </div>

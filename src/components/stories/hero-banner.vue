@@ -12,7 +12,7 @@
                                 <p>The dissected plateau area, while not actually made up of geological mountains, is
                                     popularly called "mountains," especially in eastern Kentucky and West Virginia, and
                                     while the ridges are not high, the terrain is extremely rugged.</p>
-                                <a href="">READ THE STORY <img src="../../assets/icons/icon-arrow-right-white.svg"
+                                <a>READ THE STORY <img src="../../assets/icons/icon-arrow-right-white.svg"
                                                                alt=""></a>
                             </div>
                         </div>

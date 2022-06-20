@@ -7,7 +7,7 @@
                     <div>
                         <h1>BEAUTIFUL STORIES EVERY TIME</h1>
                         <p>We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.</p>
-                        <a href="">VIEW THE STORIES<img src="../../assets/icons/icon-arrow-right-black.svg" alt=""></a>
+                        <a>VIEW THE STORIES<img src="../../assets/icons/icon-arrow-right-black.svg" alt=""></a>
                     </div>
                 </div>
             </div>

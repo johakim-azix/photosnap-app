@@ -16,7 +16,7 @@
                         <h1>DESIGNED FOR EVERYONE</h1>
                         <p>Photosnap can help you create stories that resonate with your audience. Our tool is designed
                             for photographers of all levels, brands, businesses you name it.</p>
-                        <a href="">VIEW THE STORIES<img src="../../assets/icons/icon-arrow-right-black.svg" alt=""></a>
+                        <a>VIEW THE STORIES<img src="../../assets/icons/icon-arrow-right-black.svg" alt=""></a>
                     </div>
                 </div>
             </div>

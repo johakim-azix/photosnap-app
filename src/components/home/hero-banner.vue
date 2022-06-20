@@ -11,7 +11,7 @@
                                 <h1>CREATE AND SHARE YOUR PHOTO STORIES.</h1>
                                 <p>Photosnap is a platform for photographers and visual storytellers. We make it easy to
                                     share photos, tell stories and connect with others.</p>
-                                <a href="">GET AN INVITE <img src="../../assets/icons/icon-arrow-right-white.svg"
+                                <a>GET AN INVITE <img src="../../assets/icons/icon-arrow-right-white.svg"
                                                               alt=""></a>
                             </div>
                         </div>

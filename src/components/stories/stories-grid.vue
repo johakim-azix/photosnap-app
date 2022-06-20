@@ -9,7 +9,7 @@
                         <strong>The Mountains</strong>
                         <small>by John Appleseed</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                         <strong>Sunset Cityscapes</strong>
                         <small>by Benjamin Cruz</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                         <strong>18 Days Voyage</strong>
                         <small>by Alexei Borodin</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                         <strong>Architecturals</strong>
                         <small>by Samantha Brooke</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                         <strong>World Tour 2019</strong>
                         <small>by Timothy Wagner</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                         <strong>Unforeseen Corners</strong>
                         <small>by William Malcolm</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                         <strong>King on Africa: Part II</strong>
                         <small>by Tim Hillenburg</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                         <strong>The Trip to Nowhere</strong>
                         <small>by Felicia Rourke</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                         <strong>Rage of The Sea</strong>
                         <small>by Mohammed Abdul</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                         <strong>Running Free</strong>
                         <small>by Michelle</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@
                         <strong>Behind the Waves</strong>
                         <small>by Lamarr Wilson</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -141,7 +141,7 @@
                         <strong>Calm Waters</strong>
                         <small>by Samantha Brooke</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@
                         <strong>The Milky Way</strong>
                         <small>by Benjamin Cruz</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -165,7 +165,7 @@
                         <strong>Night at The Dark Forest</strong>
                         <small>by Mohammed Abdul</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@
                         <strong>Somwarpet’s Beauty</strong>
                         <small>by Michelle</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -189,7 +189,7 @@
                         <strong>Land of Dreams</strong>
                         <small>by William Malcolm</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>

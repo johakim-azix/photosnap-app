@@ -9,7 +9,7 @@
                         <strong>The Mountains</strong>
                         <small>by John Appleseed</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                         <strong>Sunset Cityscapes</strong>
                         <small>by Benjamin Cruz</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                         <strong>18 Days Voyage</strong>
                         <small>by Alexei Borodin</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                         <strong>Architecturals</strong>
                         <small>by Samantha Brooke</small>
                         <hr>
-                        <a href="">READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                        <a>READ STORY <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                     </div>
                 </div>
             </div>

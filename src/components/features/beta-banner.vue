@@ -5,7 +5,7 @@
                 <div class="text">
                     <div class="bar"></div>
                     <h1>We’re in beta. <br> Get your invite today!</h1>
-                    <a href="">GET AN INVITE <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
+                    <a>GET AN INVITE <img src="../../assets/icons/icon-arrow-right-white.svg" alt=""></a>
                 </div>
             </div>
         </div>
